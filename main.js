@@ -37,8 +37,9 @@ window.onload = function () {
 	var lazyboys = document.getElementsByClassName("lazyloaded");
 	for (var i = 0; i < lazyboys.length; i++) { 
 		lazyboys[i].setAttribute('src', lazyboys[i].getAttribute('data-src'));
+		lazyboy = lazyboys[i];
 		lazyboys[i].onload = function() {
-			lazyboys[i].removeAttribute('data-src');
+			lazyboy.removeAttribute('data-src');
 		};
 	};
 };
