@@ -8,7 +8,7 @@ header { position: fixed; top: 50%; margin-top: calc(-182px / 2); text-align: ce
 .body { background-color: #FFFFFF; box-shadow: 0px 0px 4px rgba(22, 22, 29, 0.69); float: left; z-index: 1; margin-top: 100vh; padding: 5% 0%; }
 footer { color: #E6E6E6; text-decoration: none; text-align: center; float: left; z-index: 2; }
 
-.parallax > div { width: 50%; float: left; }
+.parallax > div { width: 50%; height: 100%; float: left; }
 .parallax > div > div { width: 100%; height: 50%; position: relative; }
 .parallax > div:nth-child(1) > div:nth-child(1), .parallax > div:nth-child(2) > div:nth-child(2), .work > a > img { background: -webkit-repeating-linear-gradient(135deg, #16161D, #16161D 1%, #C2185B 1%, #C2185B 1.5%); background: repeating-linear-gradient(135deg, #16161D, #16161D 1%, #C2185B 1%, #C2185B 1.5%); }
 .parallax > div:nth-child(1) > div:nth-child(2), .parallax > div:nth-child(2) > div:nth-child(1) { background: -webkit-repeating-linear-gradient(45deg, #16161D, #16161D 1%, #C2185B 1%, #C2185B 1.5%); background: repeating-linear-gradient(45deg, #16161D, #16161D 1%, #C2185B 1%, #C2185B 1.5%); }
